@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js / Vite
+frontend/node_modules/
+frontend/dist/
+
+# 运行输出
+output/
+*.log
+
+# 本地配置与密钥
+.env
+.env.*
+!.env.example
+*.key
+
+# 编辑器
+.idea/
+.vscode/
